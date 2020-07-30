@@ -14,7 +14,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " Auto complete
-Plugin 'valloric/youcompleteme'
+"Plugin 'valloric/youcompleteme'
 
 " Other plugins
 Plugin 'kien/ctrlp.vim'
@@ -149,8 +149,8 @@ setlocal spell spelllang=en_us
 set bg=dark
 set t_Co=256
 "let g:solarized_termcolors=256
-set background=dark
-colorscheme solarized
+colorscheme onedark
+hi Normal guibg=NONE ctermbg=NONE
 
 " Enable omnicomplete and for filetypes
 augroup omni_complete
@@ -163,8 +163,8 @@ augroup omni_complete
 	autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 augroup END
 	
-" Set tabbing to 2 spaces
-set shiftwidth=2 tabstop=2 expandtab
+" Set tabbing to 4 spaces
+set shiftwidth=4 tabstop=4 expandtab
 
 "Remap split switching to C-jkhl
 map <C-J> <C-W>j<C-W>

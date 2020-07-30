@@ -25,6 +25,8 @@ set __fish_git_prompt_char_upstream_ahead  "↑"
 set __fish_git_prompt_char_upstream_behind "↓"
 set __fish_git_prompt_char_upstream_prefix "|"
 
+# Enable vim mode
+fish_vi_key_bindings
 
 # Prompt
 function prompt_pwd --description 'Print the current working directory, NOT shortened to fit the prompt'
