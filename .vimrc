@@ -29,7 +29,7 @@ filetype plugin indent on    " required
 au BufNewFile,BufRead *.ejs set filetype=html
 
 " NERDTree git
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "~",
     \ "Staged"    : "+",
     \ "Untracked" : "*",
